@@ -1,4 +1,4 @@
-package ru.kuzm1ch88.ethernalmod.item;
+    package ru.kuzm1ch88.ethernalmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -14,6 +14,9 @@ public class EthernalItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
