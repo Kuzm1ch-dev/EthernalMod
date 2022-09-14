@@ -4,6 +4,8 @@
 
 
   "block.ethernalmod.mythril_block": "Mythril Block",
-  "block.ethernalmod.mythril_ore": "Mythril Ore"
+  "block.ethernalmod.mythril_ore": "Mythril Ore",
 
+
+  "itemGroup.ethernalmod.mythril": "Ethernal"
 }

@@ -10,14 +10,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.kuzm1ch88.ethernalmod.EthernalMod;
+import ru.kuzm1ch88.ethernalmod.item.EthernalItemGroup;
 
 public class EthernalBlocks {
 
     public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(EthernalMod.MOD_ID, name), block);
