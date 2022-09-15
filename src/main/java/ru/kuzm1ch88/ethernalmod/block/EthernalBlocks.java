@@ -16,26 +16,29 @@ public class EthernalBlocks {
 
     //Ore Block's
     public static final Block TIN_BLOCK = registerBlock("tin_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block COLD_IRON_BLOCK = registerBlock("cold_iron_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block ALATY_STONE_BLOCK = registerBlock("alaty_stone_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     //Ore's
+    public static final Block AUMENTIT_ORE = registerBlock("aumentit_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
     public static final Block TIN_ORE = registerBlock("tin_ore",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block COLD_IRON_ORE = registerBlock("cold_iron_ore",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
     public static final Block ALATY_STONE_ORE = registerBlock("alaty_stone_ore",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.0f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group){

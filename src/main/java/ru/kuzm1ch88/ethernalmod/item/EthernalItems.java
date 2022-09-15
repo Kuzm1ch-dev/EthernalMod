@@ -16,6 +16,9 @@ public class EthernalItems {
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
     //Ingots
+    public static final Item AUMENTIT_INGOT = registerItem("aumentit_ingot",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
     public static final Item BRONZE_INGOT = registerItem("bronze_ingot",
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
@@ -40,6 +43,9 @@ public class EthernalItems {
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
     public static final Item RAW_COLD_IRON = registerItem("raw_cold_iron",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    public static final Item RAW_AUMENTIT = registerItem("raw_aumentit",
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
     private static Item registerItem(String name, Item item) {

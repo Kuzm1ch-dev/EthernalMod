@@ -1,13 +1,7 @@
 {
   "replace": false,
   "values": [
-
     "ethernalmod:cold_iron_ore",
-    "ethernalmod:alaty_stone_ore",
-
-    "ethernalmod:tin_block",
-    "ethernalmod:bronze_block",
-    "ethernalmod:cold_stone_block",
-    "ethernalmod:alaty_stone_block"
+    "ethernalmod:cold_iron_block"
   ]
 }
