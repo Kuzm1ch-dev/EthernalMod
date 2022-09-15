@@ -14,11 +14,30 @@ import ru.kuzm1ch88.ethernalmod.item.EthernalItemGroup;
 
 public class EthernalBlocks {
 
-    public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
+    //Ore Block's
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+    public static final Block COLD_IRON_BLOCK = registerBlock("cold_iron_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
 
-    public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+    public static final Block ALATY_STONE_BLOCK = registerBlock("alaty_stone_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+    //Ore's
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+    public static final Block COLD_IRON_ORE = registerBlock("cold_iron_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+    public static final Block ALATY_STONE_ORE = registerBlock("alaty_stone_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), EthernalItemGroup.ETHERNAL_ITEM_GROUP);
+
+
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(EthernalMod.MOD_ID, name), block);

@@ -10,13 +10,36 @@ import ru.kuzm1ch88.ethernalmod.EthernalMod;
 
 public class EthernalItems {
 
-    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
+
+    //Fuel
+    public static final Item ALATY_STONE = registerItem("alaty_stone",
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
-    public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
+    //Ingots
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot",
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
-    public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
+    public static final Item TIN_INGOT = registerItem("tin_ingot",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    public static final Item COLD_IRON_INGOT = registerItem("cold_iron_ingot",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    //Fabric
+    public static final Item FABRIC = registerItem("fabric",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    public static final Item GOLDEN_STRING = registerItem("golden_string",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    public static final Item GOLDEN_FABRIC = registerItem("golden_fabric",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    //Raw
+    public static final Item RAW_TIN = registerItem("raw_tin",
+            new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
+
+    public static final Item RAW_COLD_IRON = registerItem("raw_cold_iron",
             new Item(new FabricItemSettings().group(EthernalItemGroup.ETHERNAL_ITEM_GROUP)));
 
     private static Item registerItem(String name, Item item) {
