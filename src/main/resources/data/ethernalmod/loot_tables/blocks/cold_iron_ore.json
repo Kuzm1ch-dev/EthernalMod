@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "minecraft:alaty_stone_ore"
+              "name": "ethernalmod:cold_iron_ore"
             },
             {
               "type": "minecraft:item",
@@ -35,7 +35,7 @@
                   "count": {
                     "type": "minecraft:uniform",
                     "min": 1.0,
-                    "max": 9.0
+                    "max": 3.0
                   },
                   "add": false
                 },
@@ -48,7 +48,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:alaty_stone"
+              "name": "ethernalmod:raw_cold_iron"
             }
           ]
         }
